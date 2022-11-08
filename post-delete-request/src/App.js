@@ -1,8 +1,11 @@
-
+import TodoForm from './components/TodoForm/TodoForm';
+import TodoList from './components/TodoList/TodoList';
+import './scss/style.scss';
 function App() {
   return (
-    <div className="App">
-
+    <div className="todo-app">
+      <TodoList/>
+        {/* <TodoForm/> */}
     </div>
   );
 }
